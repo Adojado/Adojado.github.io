@@ -1,0 +1,47 @@
+#timeline, #timeline-line {
+    display: none;
+    position: fixed;
+    top: 0;
+}
+#timeline-line {
+    position: fixed;
+    bottom: 10vh;
+    top: 90vh;
+    width: 100vw;
+}
+#timeline-line h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #fff;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+#timeline {
+    left: 10vw;
+    width: 80vw;
+}
+#timeline .time {
+    width: 100%;
+    height: 100vh;
+
+}
+#timeline .time h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #fff;
+    border-radius: 15px;
+    margin-top: 0px;
+}
+#timeline .time .left,.right {
+    position: relative;
+    max-width: 35vw;
+}
+#timeline .time .left {
+    left: 0;
+}
+#timeline .time .right {
+    left: 50vw;
+}
+.play {
+    margin-top: 20px;
+}
