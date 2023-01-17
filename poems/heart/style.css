@@ -207,3 +207,11 @@ html, body{margin:0; padding:0; min-height:100%;}
     top:200px;
     text-align: center;
 }
+
+.lvy {
+    display: none;
+    color: #fc2e5a;
+    position: relative;
+    top:250px;
+    text-align: center;
+}

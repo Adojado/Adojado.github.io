@@ -28,4 +28,8 @@ $(document).ready(function() {
         $('.texts').html("Вместе они весь мой мир");
         $('.heart-Container').toggleClass('broken');
     }, 24500)
+
+    setTimeout(function () {
+        $('.lvy').slideDown(2000);
+    }, 25500)
 });
