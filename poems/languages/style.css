@@ -10,20 +10,27 @@ body {
 }
 
 .container {
-    transform: scale(15);
+    transform: scale(5);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 60vh;
+    width: 350px;
+    line-height: 0.75;
     /*text-align: center;*/
     /*width: 250px;*/
     /*height: 250px;*/
     /*border-radius: 50%;*/
     /*background-color: #C00;*/
-    position: relative;
-    left: -6vw;
+    /*position: relative;*/
+    /*left: -6vw;*/
     transition: all 5s;
+    -webkit-mask-image: url(heart.png);
+    mask-image: url(heart.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 
 .container.animate {
     transform: scale(1);
+    margin-top:20vh;
 }
