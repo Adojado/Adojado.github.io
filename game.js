@@ -53,9 +53,9 @@ function draw() {
         if (i === 0) { // Head of the snake
             ctx.drawImage(snakeHeadImg, segment.x * gridSize, segment.y * gridSize, gridSize, gridSize);
         } else { // Body segments
-            ctx.fillStyle = '#4CAF50'; // Green color for body
+            ctx.fillStyle = '#eea1e3'; // Green color for body
             ctx.fillRect(segment.x * gridSize, segment.y * gridSize, gridSize, gridSize);
-            ctx.strokeStyle = '#388E3C';
+            ctx.strokeStyle = '#eea1e3';
             ctx.strokeRect(segment.x * gridSize, segment.y * gridSize, gridSize, gridSize);
         }
     }
