@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eea1e3;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-content: space-between;
+    position: relative;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /*background-color: rgba(0,0,0,1);*/
+    pointer-events: none;
+}
+
+.intro-text {
+    text-align: center;
+    flex: 1;
+    font-size: 62px;
+    margin-top: 30vh;
+}
+
+.scroll {
+    position: fixed;
+    right: 5vw;
+    top: 5vh;
+    z-index: 100;
+}
+
+.poem {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    gap: 30px;
+    background-color: #3a3f4a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#gameCanvas {
+    border: 2px solid #eea1e3;
+    background-color: #1a1a1a;
+    display: block;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.score-board h2 {
+    color: #f0f0f0;
+}
+
+.score-board p {
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+#startButton {
+    background-color: #eea1e3;
+    color: #282c34;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#startButton:hover {
+    background-color: #eea1e3;
+}
+
+.case {
+    background-image: url("image/case.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 50%;
+    margin: 200px auto;
+    position: relative;
+    text-align: center;
+}
+.mimi {
+    position: absolute;
+    top: -100px;
+    left: 35%;
+    right: auto;
+}
+
+.open {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.open .button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid 2px #000;
+    width: fit-content;
+}
+
+.open .button:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+.result {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: #000000; /* Kolor tekstu nagrody */
+    min-height: 200px; /* Upewnij się, że jest wystarczająco miejsca na nagrody */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-item {
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out forwards; /* Animacja pojawiania się każdej nagrody */
+}
+
+.reward-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.reward-text {
+    margin-top: 10px;
+}
+
+/* Styl dla przycisku "Otwórz kolejną skrzynkę" (może być taki sam jak openCaseButton) */
+#openNextCaseButton {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border: solid 2px #eea1e3;
+    background-color: #282c34;
+    color: #eea1e3;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+}
+
+#openNextCaseButton:hover {
+    background-color: #eea1e3;
+    color: #282c34;
+}

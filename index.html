@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy happy happy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <div class="intro-text">Wszystkiego</div>
+            <div class="intro-text"></div>
+            <div class="intro-text"></div>
+            <div class="intro-text">Najlepszego !!!</div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="poem">
+            <p>
+                Sardynko droga ty moja dzis sa urodziny twe <br>
+                Mam nadzieje ze beda one bardzo przyjemne <br>
+                Zeby szef na akordeonie solowke zajebal <br>
+                A tort najlepiej jak sie da smakowal
+            </p>
+            <p>
+                W lidze zeby na adc same koty byly (tak mowie o sobie) <br>
+                Ktore do karmy beda pasowaly <br>
+                I zebys nie musiala zakopywac ich zwlok <br>
+                Ranga zeby rosla jak kutasy na twoj widok
+            </p>
+            <p>
+                Monsterow by nigdy nie brakowalo <br>
+                Kuromi zeby nowe sie caly czas pojawialo <br>
+                Zeby miliony na IG sie pojawily <br>
+                A nastepnie na konto wplynely
+            </p>
+            <p>
+                Najwazniejsz zebys zdrowie zawsze miala <br>
+                Bo wszystko inne wiem ze bedziesz ogarniala <br>
+                Szczescia zeby nie braklo <br>
+                A twoje zycie to by bylo arcydzielo
+            </p>
+        </div>
+        <h1 style="text-align: center">Dobra zaraz gifty ale najpierw na nei zasluz i zbierz monsterki</h1>
+        <div class="game-container">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <div class="score-board">
+                <h2>Score: <span id="score">0</span></h2>
+                <p>Gramy strzałkami</p>
+                <button id="startButton">Zbierz je wszystkie</button>
+            </div>
+        </div>
+
+        <div class="gifts ">
+            <div class="case">
+                <div class="mimi">
+                    <img src="image/mimikyu.gif">
+                </div>
+                <div class="open">
+                    <div id="openCaseButton" class="button">
+                        Otwieramy!
+                    </div>
+                </div>
+                <div class="result hidden"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll">
+        <img src="image/scroll.gif" alt="scroll" width="70px">
+    </div>
+
+    <script src="scroll.js"></script>
+    <script src="fireworks.js"></script>
+    <script src="game.js"></script>
+    <script src="caseAnimation.js"></script>
+</body>
+</html>
