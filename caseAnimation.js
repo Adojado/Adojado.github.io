@@ -43,7 +43,7 @@ $(document).ready(function() {
             const keyRewardDiv = $('<div id="keyReward"></div>');
             keyRewardDiv.append($('<img src="image/hextech_key.png" alt="Klucz Hextech" width="80px">'));
             keyRewardDiv.append($('<p>Masz kolejny klucz a co tam!</p>'));
-            const openNextCaseButton = $('<div class="button" id="openNextCaseButton">Dawaj kolejną skrzynke!</div>');
+            const openNextCaseButton = $('<div class="button" id="openNextCaseButton">Dawaj kolejna skrzynke!</div>');
             keyRewardDiv.append(openNextCaseButton);
             resultContainer.append(keyRewardDiv);
 
