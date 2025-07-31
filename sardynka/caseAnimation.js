@@ -9,7 +9,7 @@ $(document).ready(function() {
     const rewardSequence = [
         { id: 'reward1', type: 'image', src: 'image/reward1.png', text: 'Brawo cos czeka na ciebie juz na lidze', hasKey: true },
         { id: 'reward2', type: 'image', src: 'image/reward2.png', text: 'Doleciało albo leci do ciebie na małe co nieco', hasKey: true },
-        { id: 'reward3', type: 'image', src: 'image/reward3.png', text: 'No i do odebrania maxymalnie 69 randek potem bierzemy ślub', hasKey: false }
+        { id: 'reward3', type: 'image', src: 'image/reward3.png', text: 'No i do odebrania maxymalnie 69 randek potem bierzemy slub', hasKey: false }
     ];
 
     let currentRewardIndex = 0;
