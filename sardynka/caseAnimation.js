@@ -8,8 +8,8 @@ $(document).ready(function() {
     // Nagrody 0 i 1 będą zawierać klucz, nagroda 2 (ostatnia) już nie.
     const rewardSequence = [
         { id: 'reward1', type: 'image', src: 'image/reward1.png', text: 'Brawo cos czeka na ciebie juz na lidze', hasKey: true },
-        { id: 'reward2', type: 'image', src: 'image/reward2.png', text: 'No to nizesz odebrac do dnia XYZ skopiuj sobie kod XXXXXX', hasKey: true },
-        { id: 'reward3', type: 'image', src: 'image/reward3.png', text: 'No i ostatnie do odebrania w czasie', hasKey: false }
+        { id: 'reward2', type: 'image', src: 'image/reward2.png', text: 'Doleciało albo leci do ciebie na małe co nieco', hasKey: true },
+        { id: 'reward3', type: 'image', src: 'image/reward3.png', text: 'No i do odebrania maxymalnie 69 randek potem bierzemy ślub', hasKey: false }
     ];
 
     let currentRewardIndex = 0;
